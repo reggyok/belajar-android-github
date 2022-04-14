@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MultiLanguageForm</string>
+    <string-array name="daftarNegara">
+        <item>Indonesia</item>
+        <item>Singapore</item>
+        <item>Malaysia</item>
+        <item>Philippines</item>
+        <item>Australia</item>
+    </string-array>
+    <string name="Lokasi">Location</string>
+    <string name="Jalan">Street</string>
+    <string name="KodePos">Zip Code</string>
+    <string name="Negara">Country</string>
+    <string name="Pemakai">User</string>
+    <string name="Nama">Name</string>
+    <string name="Telp">Telephone</string>
+    <string name="Sandi">Password</string>
+    <string name="TglLahir">Birth Date</string>
+    <string name="Ulang">Reset</string>
+    <string name="Simpan">Save</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".welcomeActivity">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:text="Welcome To Our App"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        />
+
+    <ImageView
+        android:layout_width="400px"
+        android:layout_height="500px"
+        android:id="@+id/image_1"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@drawable/jeruk"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reggy Oktaviani"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/tvNama"
+        />
+
+
+
+
+
+</LinearLayout>
